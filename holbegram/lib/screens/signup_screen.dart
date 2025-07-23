@@ -22,7 +22,7 @@ class _SignUpState extends State<SignUp> {
     super.dispose();
   }
 
-   @override
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
@@ -38,7 +38,7 @@ class _SignUpState extends State<SignUp> {
             isPassword: false,
             hintText: 'Username',
             keyboardType: TextInputType.text,
-            ),
+          ),
           TextFieldInput(
             controller: passwordController,
             isPassword: true,
@@ -57,7 +57,8 @@ class _SignUpState extends State<SignUp> {
                   ),
                 ),
               );
-            }
+            },
+            child: const Text('Sign up'),
           ),
         ],
       ),

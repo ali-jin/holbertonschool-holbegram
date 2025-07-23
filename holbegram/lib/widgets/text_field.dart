@@ -26,20 +26,20 @@ class TextFieldInput extends StatelessWidget {
       obscureText: isPassword,
       decoration: InputDecoration(
         hintText: hintText,
-        border: OutlineInputBorder(
+        border: const OutlineInputBorder(
           borderSide: BorderSide(
             color: Colors.transparent,
             style: BorderStyle.none,
           ),
         ),
-        focusedBorder: OutlineInputBorder(
-          borderSide: const BorderSide(
+        focusedBorder: const OutlineInputBorder(
+          borderSide: BorderSide(
             color: Colors.transparent,
             style: BorderStyle.none,
           ),
         ),
-        enabledBorder: OutlineInputBorder(
-          borderSide: const BorderSide(
+        enabledBorder: const OutlineInputBorder(
+          borderSide: BorderSide(
             color: Colors.transparent,
             style: BorderStyle.none,
           ),
